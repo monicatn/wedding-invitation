@@ -103,7 +103,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background: rgba(41, 40, 37, 0.96);
+	background-color: #121d1f;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -394,13 +394,14 @@ ol.type li a:hover {
 }
 .project-description1 {
 	font-family: 'Anonymous Pro', monospace;
-	font-size: 34px;
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: 600;
 	margin: 100px auto 0px auto;
     max-width: 1050px;
     text-align: center;  
     color: #939598;
 }
-
 .project-description3 {
 	font-family: 'Anonymous Pro', monospace;
 	font-size: 34px;
@@ -409,16 +410,16 @@ ol.type li a:hover {
     text-align: center;  
     color: #939598;
 }
-
 .project-description {
 	font-size: 20px;
-	margin: 25px auto 100px auto;
+	margin: 20px auto 100px auto;
     max-width: 800px;
     text-align: center;  
-    line-height: 34px;
+    line-height: 32px;
 }
 .project-description2 {
 	font-size: 16px;
+	line-height: 24px;
 	margin: 100px auto 100px auto;
     max-width: 800px;
     text-align: center;  
