@@ -23,6 +23,7 @@
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 <script src="https://use.typekit.net/dwn2znp.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,6 +58,27 @@
   </nav>
 </div>
 </div>
+
+<style>
+    #overlay {
+        background: #121d1f;
+        color: #666666;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 5000;
+        top: 0;
+        left: 0;
+        float: left;
+        text-align: center;
+        padding-top: 15%;
+    }
+</style>
+<div id="overlay">
+    <img src="img/page-loader.gif" alt="Loading" />
+</div>
+
+
 <!-- Portfolio Section -->
 <div id="portfolio">
     <img class="project-img" src="img/branding2_1.png">
@@ -181,5 +203,10 @@
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/scrolltop.js"></script>
+<script>
+    jQuery(window).load(function(){
+    jQuery('#overlay').fadeOut();
+    });
+</script>
 </body>
 </html>
